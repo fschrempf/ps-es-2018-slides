@@ -1,0 +1,15 @@
+{
+  "name": "ps-es-2018-slides",
+  "version": "1.0.0",
+  "description": "Interactive Slides for \"1. Esslinger Preacher Slam\" using reveal.js and slam.js",
+  "main": "index.html",
+  "dependencies": {
+    "slam.js": "git+https://github.com/fri-sch/slam.js.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frieder Schrempf",
+  "license": "MIT"
+}

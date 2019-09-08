@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>1. Esslinger Preacher Slam</title>
+
+		<script src="/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="/css/reveal.css">
+		<link rel="stylesheet" href="/css/theme/black.css">
+		<link rel="stylesheet" href="/css/ps2018.css">
+	</head>
+	<body>
+		<div id="stars">
+			<div class="large"></div>
+			<div class="medium"></div>
+		</div>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<div class="head"><h1>1. Esslinger Preacher Slam</h1></div>
+					<div class="content" style="padding-top: 20%;"><h2>WILLKOMMEN</h2></div>
+				</section>
+				<section class="blank"></section>
+				<section class="round-overview round1 round2"></section>
+				<section class="blank"></section>
+				<section class="artists round1"></section>
+				<section class="blank"></section>
+				<section class="vote round1">
+					<div class="head"><h2>Ergebnis Runde 1</h2></div>
+					<div class="content"><ol class="chart"></ol></div>
+				</section>
+				<section class="blank"></section>
+				<section>
+					<div class="head"><h1>1. Esslinger Preacher Slam</h1></div>
+					<div class="content" style="padding-top: 20%;"><h2>PAUSE</h2></div>
+				</section>
+				<section class="round-overview round2"></section>
+				<section class="blank"></section>
+				<section class="artists round2"></section>
+				<section class="blank"></section>
+				<section class="vote round2">
+					<div class="head"><h2>Ergebnis Runde 2</h2></div>
+					<div class="content"><ol class="chart"></ol></div>
+				</section>
+				<section class="blank"></section>
+				<section class="round-overview round3"></section>
+				<section class="blank"></section>
+				<section class="artists round3"></section>
+				<section class="blank"></section>
+			</div>
+		</div>
+
+		<script src="/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: false,
+				controlsTutorial: false,
+				progress: false,
+				overview: false,
+				transition: 'fade',
+				viewDistance: 1,
+				dependencies: [
+					{ src: '/socket.io/socket.io.js', async: true },
+					{ src: '/js/slamlib.js', async: false },
+					{ src: '/js/client.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

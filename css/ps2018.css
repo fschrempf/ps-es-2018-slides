@@ -1,0 +1,182 @@
+.reveal .slides > section.artists,
+.reveal .slides > section.artists > section {
+  min-height: 100% !important;
+  top: 0 !important;
+}
+
+.reveal .slides > section.artists > .head,
+.reveal .slides > section.artists > section > .head {
+  height: 20% !important;
+}
+
+.reveal .slides > section.artists > .content,
+.reveal .slides > section.artists > section > .content {
+  height: 80% !important;
+  top: 20% !important;
+}
+
+/* love-ya-like-a-sister-regular - latin */
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Love Ya Like A Sister Regular'), local('LoveYaLikeASister-Regular'),
+       url('../lib/font/love-ya-like-a-sister/love-ya-like-a-sister-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../lib/font/love-ya-like-a-sister/love-ya-like-a-sister-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* amatic-sc-regular - latin */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'),
+       url('../lib/font/amatic-sc/amatic-sc-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../lib/font/amatic-sc/amatic-sc-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Turn background darker */
+body {
+  background-color: #010101 !important;
+}
+
+/* Use Amatic font for content */
+body, p, ol, ul, li, a, div, span {
+  font-family: 'Amatic SC' !important;
+}
+
+/* Use LYLAS font for headings */
+h1, h2, h3 {
+  font-family: 'Love Ya Like A Sister' !important;
+  font-weight: normal !important;
+}
+
+.head > h1, .head > h2, .head > div, .head > span {
+  display: inline-block;
+}
+
+/* Style the rating slides for each artist */
+.artists .points > span {
+  display: inline-block;
+  background: url(../images/card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000000 !important;
+  width: 10% !important;
+  font-family: 'Love Ya Like A Sister' !important;
+  font-size: 250%;
+  line-height: 1.4em;
+  padding: 1%;
+  margin: 5%;
+}
+
+.artists .points > span:nth-child(1) {
+  transform: rotate(-5deg)
+}
+.artists .points > span:nth-child(2) {
+  transform: rotate(-1deg)
+}
+.artists .points > span:nth-child(3) {
+  transform: rotate(7deg)
+}
+.artists .points > span:nth-child(4) {
+  transform: rotate(-3deg)
+}
+.artists .points > span:nth-child(5) {
+  transform: rotate(4deg)
+}
+.artists .points > span:nth-child(6) {
+  transform: rotate(-6deg)
+}
+.artists .points > span:nth-child(7) {
+  transform: rotate(2deg)
+}
+.artists .points > span:nth-child(8) {
+  transform: rotate(-5deg)
+}
+.artists .points > span:nth-child(9) {
+  transform: rotate(8deg)
+}
+.artists .points > span:nth-child(10) {
+  transform: rotate(-3deg)
+}
+
+.artists .score {
+  display: inline-block;
+  width: 1.4em !important;
+  height: 1.4em !important;
+  font-size: 1.6em !important;
+  line-height: 1.45em !important;
+  font-family: 'Love Ya Like A Sister' !important;
+  padding: 0 !important;
+  margin-left: 5% !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-radius: 50% !important;
+  border-color: #FFFFFF !important;
+  vertical-align: -0.12em !important;
+}
+
+/* Style of rating result chart */
+.chart {
+  width: 100%;
+}
+
+.chart > li {
+  position: relative;
+  margin-bottom: 2% !important;
+}
+
+.chart > li .bar {
+  background-color: #ffffff;
+  color: #000000;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  left: calc(25% + 10px);
+}
+
+.chart > li .left {
+  color: #ffffff;
+  background-color: transparent;
+  position: absolute;
+  display: inline-block;
+  padding-left: 10px;
+  width: 25%;
+}
+
+.chart > li .bar .right {
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+}
+
+/* Add some stars to the background */
+#stars div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#stars .large {
+  background-image: url("../images/stars_large.png");
+  opacity: 0.2;
+}
+
+#stars .medium {
+  background-image: url("../images/stars_small.png");
+  opacity: 0.3;
+}
+
+.round-overview {
+	display: table !important;
+} 
+
+.round-overview > div {
+	display: table-cell;
+  width: 50%;
+} 
+
+.round-overview > div ol {
+	width: 100%;
+}
