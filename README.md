@@ -13,29 +13,25 @@ For more information and a video of the event (German) look [here](https://kirch
 ## Usage
 
 1. Clone the repository.
-```
-git clone https://github.com/fri-sch/ps-es-2018-slides.git
-cd ps-es-2018-slides
-```
+
+       git clone https://github.com/fri-sch/ps-es-2018-slides.git
+       cd ps-es-2018-slides
 
 2. Install the dependencies.
-```
-npm install
-```
+
+       npm install
 
 3. Run the server.
-```
-node node_modules/slam.js
-```
 
-  You should see something like the following. Follow the instructions.
-```
-slam.js - Kleinkunst Competition Interactive Slides
-1. Open the slides at http://localhost:1947
-2. The control page should open automatically in a separate window.
-   If not, click on the link in your JS console
-3. Enter your competition data live and go through the slides as needed
-```
+       node node_modules/slam.js
+
+   You should see something like the following. Follow the instructions.
+
+       slam.js - Kleinkunst Competition Interactive Slides
+       1. Open the slides at http://localhost:1947
+       2. The control page should open automatically in a separate window.
+          If not, click on the link in your JS console
+       3. Enter your competition data live and go through the slides as needed
 
 ## License
 
