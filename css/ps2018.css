@@ -101,7 +101,7 @@ h1, h2, h3 {
   transform: rotate(-3deg)
 }
 
-.artists .score {
+.artists .score:not(:empty) {
   display: inline-block;
   width: 1.4em !important;
   height: 1.4em !important;
@@ -169,14 +169,14 @@ h1, h2, h3 {
 }
 
 .round-overview {
-	display: table !important;
-} 
+  display: table !important;
+}
 
 .round-overview > div {
-	display: table-cell;
+  display: table-cell;
   width: 50%;
-} 
+}
 
 .round-overview > div ol {
-	width: 100%;
+  width: 100%;
 }
