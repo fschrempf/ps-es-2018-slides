@@ -4,7 +4,7 @@
   "description": "Interactive Slides for \"1. Esslinger Preacher Slam\" using reveal.js and slam.js",
   "main": "index.html",
   "dependencies": {
-    "reveal.js": "^3.8.0",
+    "reveal.js": "^3.9.2",
     "slam.js": "git+https://github.com/fri-sch/slam.js.git"
   },
   "devDependencies": {},
